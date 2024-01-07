@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+pandas = "*"
+statsmodels = "*"
+matplotlib = "*"
+seaborn = "*"
+scikit-learn = "*"
+scipy = "*"
+tensorflow = "*"
+tensorflow-datasets = "*"
+
+[dev-packages]
+ipykernel = "*"
+
+[requires]
+python_version = "3.10"
+python_full_version = "3.10.12"
